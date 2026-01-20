@@ -60,7 +60,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - B
+  - PRINTSCREEN
   - $$mdi:keyboard-space$$
   - layer2
   - {t: '''', s: '"'}
