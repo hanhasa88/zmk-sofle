@@ -86,13 +86,13 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - '&mkp MB5'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - HOME
-  - PgUp
-  - $$mdi:arrow-up-bold$$
-  - PgDn
-  - END
   - {t: '$$mdi:transfer$$', type: trans}
-  - Gui+$$mdi:keyboard-space$$
+  - Alt+Ctl+U
+  - Ctl+Alt+$$mdi:arrow-up-bold$$
+  - Ctl+Alt+I
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+Alt+L
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - '{'
@@ -100,10 +100,10 @@ layers:
   - '~'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Alt+$$mdi:arrow-left-bold$$
+  - Ctl+Alt+$$mdi:arrow-down-bold$$
+  - Ctl+Alt+$$mdi:arrow-right-bold$$
+  - Gui+Q
   - {t: '$$mdi:transfer$$', type: trans}
   - _
   - {t: '=', s: +}
@@ -113,10 +113,10 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Alt+J
+  - {t: 'Ctl+Alt+$$mdi:keyboard-return$$', type: enter}
+  - Alt+Ctl+K
+  - Gui+M
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -164,7 +164,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - Gui+Q
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -177,12 +177,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - Gui+M
+  - {t: '$$mdi:transfer$$', type: trans}
   - Alt+Gui+$$mdi:arrow-left-bold$$
-  - Alt+Gui+D
+  - Ctl+$$mdi:arrow-up-bold$$
   - Alt+Gui+$$mdi:arrow-right-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Alt+Gui+S
+  - Alt+Gui+D
   - $$mdi:mouse-right-click-outline$$
   - '&soft_off'
   - {t: '$$mdi:backup-restore$$', type: bootloader}
@@ -223,11 +223,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Alt+Gui+C
+  - Ctl+Alt+Gui+N
+  - Gui+Alt+Ctl+M
+  - Ctl+Alt+Gui+I
+  - Ctl+Alt+Gui+K
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - RGB BRI
   - RGB BRD
