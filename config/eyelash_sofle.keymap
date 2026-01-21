@@ -84,11 +84,11 @@
 
         layer_1 {
             bindings = <
-&kp F1                 &kp F2            &kp F3             &kp F4          &kp F5           &kp F6                  &mmv MOVE_UP     &kp F7    &kp F8           &kp F9    &kp F10            &kp F11  &kp F12
-&kp C_AL_FILE_BROWSER  &mkp MB4          &mkp LCLK          &mkp MCLK       &mkp RCLK        &mkp MB5                &mmv MOVE_DOWN   &kp HOME  &kp PAGE_UP      &kp UP    &kp PAGE_DOWN      &kp END  &trans
-&kp K_CALC             &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp TILDE               &mmv MOVE_LEFT   &trans    &kp LEFT         &kp DOWN  &kp RIGHT          &trans   &trans
-&kp UNDERSCORE         &kp EQUAL         &kp PLUS           &kp MINUS       &kp ASTERISK     &kp FSLH                &mmv MOVE_RIGHT  &trans    &kp K_SCROLL_UP  &trans    &kp K_SCROLL_DOWN  &trans   &trans
-&mkp RCLK              &trans            &trans             &trans          &kp ENTER        &kp C_AL_SCREENSAVER    &mkp LCLK        &trans    &trans           &trans    &trans             &trans
+&kp F1             &kp F2            &kp F3             &kp F4          &kp F5           &kp F6                  &mmv MOVE_UP     &kp F7    &kp F8       &kp F9    &kp F10        &kp F11  &kp F12
+&kp LG(LA(SPACE))  &mkp MB4          &mkp LCLK          &mkp MCLK       &mkp RCLK        &mkp MB5                &mmv MOVE_DOWN   &kp HOME  &kp PAGE_UP  &kp UP    &kp PAGE_DOWN  &kp END  &trans
+&kp LG(SPACE)      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp TILDE               &mmv MOVE_LEFT   &trans    &kp LEFT     &kp DOWN  &kp RIGHT      &trans   &trans
+&kp UNDERSCORE     &kp EQUAL         &kp PLUS           &kp MINUS       &kp ASTERISK     &kp FSLH                &mmv MOVE_RIGHT  &trans    &trans       &trans    &trans         &trans   &trans
+&mkp RCLK          &trans            &trans             &trans          &kp ENTER        &kp C_AL_SCREENSAVER    &mkp LCLK        &trans    &trans       &trans    &trans         &trans
             >;
 
             display-name = "layer1";
