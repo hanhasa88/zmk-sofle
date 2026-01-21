@@ -90,7 +90,7 @@ layers:
   - Alt+Ctl+U
   - Ctl+Alt+$$mdi:arrow-up-bold$$
   - Ctl+Alt+I
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+Q
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+Alt+L
   - {t: '[', s: '{'}
@@ -103,7 +103,7 @@ layers:
   - Ctl+Alt+$$mdi:arrow-left-bold$$
   - Ctl+Alt+$$mdi:arrow-down-bold$$
   - Ctl+Alt+$$mdi:arrow-right-bold$$
-  - Gui+Q
+  - Gui+W
   - {t: '$$mdi:transfer$$', type: trans}
   - _
   - {t: '=', s: +}
