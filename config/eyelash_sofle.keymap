@@ -97,11 +97,11 @@
 
         layer_2 {
             bindings = <
-&bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &trans    &trans       &trans    &trans         &trans   &trans
-&bt BT_CLR      &trans        &trans        &trans        &trans        &trans          &mmv MOVE_DOWN   &kp HOME  &kp PAGE_UP  &kp UP    &kp PAGE_DOWN  &kp END  &trans
-&out OUT_USB    &trans        &trans        &trans        &trans        &trans          &mmv MOVE_LEFT   &trans    &kp LEFT     &kp DOWN  &kp RIGHT      &trans   &trans
-&out OUT_BLE    &trans        &trans        &trans        &trans        &trans          &mmv MOVE_RIGHT  &trans    &trans       &trans    &trans         &trans   &trans
-&mkp RCLK       &soft_off     &sys_reset    &bootloader   &trans        &trans          &mkp LCLK        &trans    &trans       &trans    &trans         &trans
+&bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &trans     &trans            &trans         &trans             &trans   &trans
+&bt BT_CLR      &trans        &trans        &trans        &trans        &trans          &mmv MOVE_DOWN   &kp HOME   &kp PAGE_UP       &kp UP         &kp PAGE_DOWN      &kp END  &trans
+&out OUT_USB    &trans        &trans        &trans        &trans        &trans          &mmv MOVE_LEFT   &kp LG(Q)  &kp LEFT          &kp DOWN       &kp RIGHT          &kp F4   &kp F11
+&out OUT_BLE    &trans        &trans        &trans        &trans        &trans          &mmv MOVE_RIGHT  &kp LG(M)  &kp LA(LG(LEFT))  &kp LA(LG(D))  &kp LA(LG(RIGHT))  &trans   &trans
+&mkp RCLK       &soft_off     &sys_reset    &bootloader   &trans        &trans          &mkp LCLK        &trans     &trans            &trans         &trans             &trans
             >;
 
             display-name = "layer2";
