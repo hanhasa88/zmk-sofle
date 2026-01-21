@@ -110,11 +110,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans          &trans            &kp LG(KP_PLUS)   &trans           &trans           &trans           &trans           &trans           &trans
-&trans  &trans  &trans  &trans  &trans          &trans            &kp LG(KP_MINUS)  &trans           &trans           &trans           &trans           &trans           &trans
-&trans  &trans  &trans  &trans  &trans          &trans            &kp C_BRI_DEC     &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &trans           &trans
-&trans  &trans  &trans  &trans  &trans          &trans            &kp C_BRI_UP      &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &trans           &trans
-&trans  &trans  &trans  &trans  &kp LG(LS(N3))  &kp LG(LS(N4))    &trans            &trans           &rgb_ug RGB_OFF  &rgb_ug RGB_ON   &rgb_ug RGB_EFF  &rgb_ug RGB_EFR
+&trans     &trans  &trans  &trans  &trans          &trans            &mmv MOVE_UP     &trans           &trans           &trans           &trans           &trans           &trans
+&trans     &trans  &trans  &trans  &trans          &trans            &mmv MOVE_DOWN   &trans           &trans           &trans           &trans           &trans           &trans
+&trans     &trans  &trans  &trans  &trans          &trans            &mmv MOVE_LEFT   &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &trans           &trans
+&trans     &trans  &trans  &trans  &trans          &trans            &mmv MOVE_RIGHT  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &trans           &trans
+&mkp LCLK  &trans  &trans  &trans  &kp LG(LS(N3))  &kp LG(LS(N4))    &trans           &trans           &rgb_ug RGB_OFF  &rgb_ug RGB_ON   &rgb_ug RGB_EFF  &rgb_ug RGB_EFR
             >;
 
             display-name = "layer3";
