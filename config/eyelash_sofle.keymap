@@ -84,11 +84,11 @@
 
         layer_1 {
             bindings = <
-&kp F1             &kp F2            &kp F3             &kp F4          &kp F5           &kp F6                  &mmv MOVE_UP     &kp F7    &kp F8       &kp F9    &kp F10        &kp F11  &kp F12
-&kp LG(LA(SPACE))  &mkp MB4          &mkp LCLK          &mkp MCLK       &mkp RCLK        &mkp MB5                &mmv MOVE_DOWN   &kp HOME  &kp PAGE_UP  &kp UP    &kp PAGE_DOWN  &kp END  &trans
-&kp LG(SPACE)      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp TILDE               &mmv MOVE_LEFT   &trans    &kp LEFT     &kp DOWN  &kp RIGHT      &trans   &trans
-&kp UNDERSCORE     &kp EQUAL         &kp PLUS           &kp MINUS       &kp ASTERISK     &kp FSLH                &mmv MOVE_RIGHT  &trans    &trans       &trans    &trans         &trans   &trans
-&mkp RCLK          &trans            &trans             &trans          &kp ENTER        &kp C_AL_SCREENSAVER    &mkp LCLK        &trans    &trans       &trans    &trans         &trans
+&kp F1             &kp F2            &kp F3             &kp F4          &kp F5           &kp F6                  &mmv MOVE_UP     &kp F7  &kp F8            &kp F9             &kp F10            &kp F11    &kp F12
+&kp LG(LA(SPACE))  &mkp MB4          &mkp LCLK          &mkp MCLK       &mkp RCLK        &mkp MB5                &mmv MOVE_DOWN   &trans  &kp LA(LC(U))     &kp LC(LA(UP))     &kp LC(LA(I))      &trans     &trans
+&kp LG(LA(L))      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp TILDE               &mmv MOVE_LEFT   &trans  &kp LC(LA(LEFT))  &kp LC(LA(DOWN))   &kp LC(LA(RIGHT))  &kp LG(Q)  &trans
+&kp UNDERSCORE     &kp EQUAL         &kp PLUS           &kp MINUS       &kp ASTERISK     &kp FSLH                &mmv MOVE_RIGHT  &trans  &kp LC(LA(J))     &kp LC(LA(ENTER))  &kp LA(LC(K))      &kp LG(M)  &trans
+&mkp RCLK          &trans            &trans             &trans          &kp ENTER        &kp C_AL_SCREENSAVER    &mkp LCLK        &trans  &trans            &trans             &trans             &trans
             >;
 
             display-name = "layer1";
@@ -97,11 +97,11 @@
 
         layer_2 {
             bindings = <
-&bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &trans     &trans            &trans         &trans             &trans   &trans
-&bt BT_CLR      &trans        &trans        &trans        &trans        &trans          &mmv MOVE_DOWN   &kp HOME   &kp PAGE_UP       &kp UP         &kp PAGE_DOWN      &kp END  &trans
-&out OUT_USB    &trans        &trans        &trans        &trans        &trans          &mmv MOVE_LEFT   &kp LG(Q)  &kp LEFT          &kp DOWN       &kp RIGHT          &kp F4   &kp F11
-&out OUT_BLE    &trans        &trans        &trans        &trans        &trans          &mmv MOVE_RIGHT  &kp LG(M)  &kp LA(LG(LEFT))  &kp LA(LG(D))  &kp LA(LG(RIGHT))  &trans   &trans
-&mkp RCLK       &soft_off     &sys_reset    &bootloader   &trans        &trans          &mkp LCLK        &trans     &trans            &trans         &trans             &trans
+&bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &trans    &trans            &trans      &trans             &trans             &trans
+&bt BT_CLR      &trans        &trans        &trans        &trans        &trans          &mmv MOVE_DOWN   &kp HOME  &kp PAGE_UP       &kp UP      &kp PAGE_DOWN      &kp END            &trans
+&out OUT_USB    &trans        &trans        &trans        &trans        &trans          &mmv MOVE_LEFT   &trans    &kp LEFT          &kp DOWN    &kp RIGHT          &kp F4             &kp F11
+&out OUT_BLE    &trans        &trans        &trans        &trans        &trans          &mmv MOVE_RIGHT  &trans    &kp LA(LG(LEFT))  &kp LC(UP)  &kp LA(LG(RIGHT))  &kp LC(LA(LG(S)))  &kp LA(LG(D))
+&mkp RCLK       &soft_off     &sys_reset    &bootloader   &trans        &trans          &mkp LCLK        &trans    &trans            &trans      &trans             &trans
             >;
 
             display-name = "layer2";
@@ -110,11 +110,11 @@
 
         layer_3 {
             bindings = <
-&trans     &trans  &trans  &trans  &trans          &trans            &mmv MOVE_UP     &trans           &trans           &trans           &trans           &trans           &trans
-&trans     &trans  &trans  &trans  &trans          &trans            &mmv MOVE_DOWN   &trans           &trans           &trans           &trans           &trans           &trans
-&trans     &trans  &trans  &trans  &trans          &trans            &mmv MOVE_LEFT   &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &trans           &trans
-&trans     &trans  &trans  &trans  &trans          &trans            &mmv MOVE_RIGHT  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &trans           &trans
-&mkp LCLK  &trans  &trans  &trans  &kp LG(LS(N3))  &kp LG(LS(N4))    &mkp RCLK        &trans           &rgb_ug RGB_OFF  &rgb_ug RGB_ON   &rgb_ug RGB_EFF  &rgb_ug RGB_EFR
+&trans     &trans             &trans             &trans             &trans             &trans               &mmv MOVE_UP     &trans           &trans           &trans           &trans           &trans           &trans
+&trans     &trans             &trans             &trans             &trans             &trans               &mmv MOVE_DOWN   &trans           &trans           &trans           &trans           &trans           &trans
+&trans     &kp LC(LA(LG(C)))  &kp LC(LA(LG(N)))  &kp LG(LA(LC(M)))  &kp LC(LA(LG(I)))  &kp LC(LA(LG(K)))    &mmv MOVE_LEFT   &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &trans           &trans
+&trans     &trans             &trans             &trans             &trans             &trans               &mmv MOVE_RIGHT  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &trans           &trans
+&mkp LCLK  &trans             &trans             &trans             &kp LG(LS(N3))     &kp LG(LS(N4))       &mkp RCLK        &trans           &rgb_ug RGB_OFF  &rgb_ug RGB_ON   &rgb_ug RGB_EFF  &rgb_ug RGB_EFR
             >;
 
             display-name = "layer3";
