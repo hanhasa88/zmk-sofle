@@ -85,8 +85,8 @@
         layer_1 {
             bindings = <
 &kp F1             &kp F2            &kp F3             &kp F4          &kp F5           &kp F6                  &mmv MOVE_UP     &kp F7  &kp F8            &kp F9             &kp F10            &kp F11    &kp F12
-&kp LG(LA(SPACE))  &mkp MB4          &mkp LCLK          &mkp MCLK       &mkp RCLK        &mkp MB5                &mmv MOVE_DOWN   &trans  &kp LA(LC(U))     &kp LC(LA(UP))     &kp LC(LA(I))      &trans     &trans
-&kp LG(LA(L))      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp TILDE               &mmv MOVE_LEFT   &trans  &kp LC(LA(LEFT))  &kp LC(LA(DOWN))   &kp LC(LA(RIGHT))  &kp LG(Q)  &trans
+&kp LG(LA(SPACE))  &mkp MB4          &mkp LCLK          &mkp MCLK       &mkp RCLK        &mkp MB5                &mmv MOVE_DOWN   &trans  &kp LA(LC(U))     &kp LC(LA(UP))     &kp LC(LA(I))      &kp LG(Q)  &trans
+&kp LG(LA(L))      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp TILDE               &mmv MOVE_LEFT   &trans  &kp LC(LA(LEFT))  &kp LC(LA(DOWN))   &kp LC(LA(RIGHT))  &kp LG(W)  &trans
 &kp UNDERSCORE     &kp EQUAL         &kp PLUS           &kp MINUS       &kp ASTERISK     &kp FSLH                &mmv MOVE_RIGHT  &trans  &kp LC(LA(J))     &kp LC(LA(ENTER))  &kp LA(LC(K))      &kp LG(M)  &trans
 &mkp RCLK          &trans            &trans             &trans          &kp ENTER        &kp C_AL_SCREENSAVER    &mkp LCLK        &trans  &trans            &trans             &trans             &trans
             >;
