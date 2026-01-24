@@ -63,8 +63,8 @@ layers:
   - layer3
   - $$mdi:keyboard-space$$
   - layer2
-  - {t: '''', s: '"'}
   - {t: ',', s: <}
+  - {t: '''', s: '"'}
   layer1:
   - F1
   - F2
