@@ -104,7 +104,7 @@ layers:
   - Ctl+Alt+$$mdi:arrow-down-bold$$
   - Ctl+Alt+$$mdi:arrow-right-bold$$
   - Gui+W
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: 'Gui+[', s: 'Gui+{'}
   - _
   - {t: '=', s: +}
   - +
@@ -117,7 +117,7 @@ layers:
   - {t: 'Ctl+Alt+$$mdi:keyboard-return$$', type: enter}
   - Alt+Ctl+K
   - Gui+M
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: 'Gui+]', s: 'Gui+}'}
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
